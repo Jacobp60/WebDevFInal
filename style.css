@@ -1,0 +1,191 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: Garamond,Serif;
+    font-weight: bold;
+}
+nav a:hover{
+    color: white;
+}
+nav a{
+    color: lightcoral;
+}
+div h1{
+    padding-top: 400px;
+    text-align: center;
+    color: lightcoral;
+}
+.fill{
+    height: 50vh;
+}
+div h2{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.centerText{
+    color: white;
+    text-align: center;
+}
+.caption{
+    color: white;
+    text-align: center;
+}
+#centerButton{
+    align-content:center ;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#image{
+    background-image: url("images/pexels-matt-hardy-1870259 (1).jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#imageContact{
+    background-image: url("images/pexels-matt-hardy-1870259 (1).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.copyRight{
+    text-align: center;
+    text-decoration-color: darkgrey;
+    font-style: italic;
+}
+footer{
+    background-color: #0D0D0D;
+    color: #BFBFBF;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -180px;
+
+}
+a:hover{
+    color: lightcoral;
+}
+.icon:hover{
+    background-color: transparent;
+}
+.iconH:hover{
+
+}
+footer nav a {
+    align-content: start;
+    text-align: left;
+}
+footer nav a:hover{
+    color: #BFBFBF;
+}
+button:hover{
+    background-color: lightcoral;
+    border: lightcoral;
+
+}
+label{
+    color: white;
+}
+.card{
+    color: black;
+}
+#container{
+    background-color: #0D0D0D;
+    color: lightcoral;
+}
+button:hover{
+    background-color: black;
+    border: 1px white;
+    color: white;
+}
+#logo{
+    padding-right: 25px;
+}
+.card mb-3{
+    padding-right: 9000px;
+}
+#costumers{
+    color: white;
+    font-weight: bold;
+}
+.mobile{
+    display: none;
+}
+#costumersCap{
+    background-color: #383838;
+    align-content: center;
+    text-align: center;
+}
+.footerInfo{
+    color: lightcoral;
+}
+@media only screen and (max-width:720px){
+    #image{
+        background-image: none;
+        height: auto;
+    }
+    #image h1{
+        padding-top: 0;
+        color: lightcoral;
+    }
+    #imageContact{
+        background-image: none;
+        height: auto;
+
+    }
+    #imageContact h1{
+        padding-top: 10px;
+        color: lightcoral;
+    }
+    .card{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .container-fill{
+        content: none;
+        display: none;
+    }
+    .mobile{
+        display: block;
+        text-align: center;
+        padding-top: 1px;
+    }
+    img{
+        height: auto;
+    }
+    .mobileHeader{
+        background-color: lightcoral;
+        color: black;
+    }
+    div h1{
+        color: #0D0D0D;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #image{
+        height: 50vh;
+        background-image: url("images/pexels-matt-hardy-1870259 (1).jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    #image h1{
+        padding-top: 120px;
+    }
+    #imageContact{
+        height: 50vh;
+        background-image: url("images/pexels-matt-hardy-1870259 (1).jpg");
+        background-position: center;
+        background-size: cover;
+        color: lightcoral;
+    }
+    #imageContact h1{
+        padding-top: 200px;
+        color: lightcoral;
+    }
+}
+
